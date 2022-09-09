@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey</h1>
+    <p id="description">Fill out this survey to help us improve</p>
+    <form id="survey-form">
+      <div id="container">
+        <div class="test">
+                  <label for="name"id='name-label'>Name</label><input id='name' type="text" placeholder="Enter your name" required>
+        </div>
+
+      <label for="email" id="email-label">Email</label><input id='email' type='email' placeholder="Enter your email" required>
+
+      <label for="number" id="number-label">Age</label><input id='number' type='number' min='12' max='99' placeholder="Age">
+      <label for="dropdown">Which career interests you the most?</label>
+      <select id="dropdown">
+        <option>Select an option</option>
+        <option value="sd">Software Developer</option>
+        <option value="ne">Network Engineer</option>
+        <option value="security">Cyber Security Analyst</option>
+        <option value="cse">Cloud Security Engineer</option>
+      </select>
+      <p>How many years of experience in IT do you have?</p>
+      <div class="radio">
+        <input type="radio" name="xp" id="1">
+      <label for="1">0-1</label>
+      <input type="radio" name="xp" id="2">
+      <label for="2">2-3</label>
+      <input type="radio" name="xp" id="3">
+      <label for="3">4+</label>
+
+      </div>
+      
+
+      <p>What makes IT interesting to you? <span id="check">(Check all that apply)</span></p>
+      <input type="checkbox" value="money" id="money">
+      <label for="money">Money</label>
+      <input type="checkbox" value="challenge" id="challenge">
+      <label for="challenge">Challenging</label>
+      <input type="checkbox" value="curious" id="curious">
+      <label for="curios">Curious how technology works</label>
+      <input type="checkbox" value="satis" id="satis">
+      <label for="statis">Doing Satisfying work</label>
+
+      <p>Let us know any questions or comments about working in IT</p>
+      <input type="textarea" id="textarea">
+      <input id="submit" type="submit">
+
+      </div>
+      
+    </form>
+  </body>
+</html>
