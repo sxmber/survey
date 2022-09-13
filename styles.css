@@ -1,27 +1,58 @@
 body {
-    width:100%;
-    font-size:20px
-  }
-  
-  h1 {
-    font-size: 35px
-  }
-  input{
-    display:block;
-  }
-  
-  #title, #description{
-    text-align:center;
-  }
-  
-  #container {
-    width:600px;
-    height:800px;
-    margin: 0 auto;
-    background-color://#5B8E7D;
-    border-radius: 10px
-  } #5B8E7D
-  
-  
-  
-  
+  font-family: 'Arvo', serif;
+  width: 100%;
+  font-size: 19px;
+}
+
+#textarea {
+  width: 100px;
+  height: 100px;
+}
+
+.check-box label {
+  display: block;
+  padding: 5px 0px;
+}
+
+span {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+.radio label {
+  display: block;
+  padding: 5px 0px;
+}
+
+
+#title,
+#description {
+  text-align: center;
+}
+
+.test {
+  padding: 40px;
+}
+
+#container {
+  width: 600px;
+  height: 860px;
+  margin: 0 auto;
+  background-color: #5B8E7D;
+  border-radius: 10px;
+}
+
+#name,
+#email,
+#number {
+  width: 513px;
+  height: 25px;
+  border-radius: 7px;
+}
+
+#dropdown {
+  margin-top: 20px;
+}
