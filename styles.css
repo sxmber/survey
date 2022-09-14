@@ -2,11 +2,34 @@ body {
   font-family: 'Arvo', serif;
   width: 100%;
   font-size: 19px;
+  background-color: #48435C;
+  color: #EDFFEC;
+
 }
 
+#submit {
+  display: block;
+  width: 40%;
+  margin: 5px auto;
+  background-color: #f3f2f2;
+  border: 0;
+}
+
+#name-label,
+#email-label,
+#number-label {
+  margin-top: 15px;
+}
+
+
 #textarea {
-  width: 100px;
+  width: 500px;
   height: 100px;
+  border-radius: 7px;
+  padding-top: 5px;
+  padding-left: 5px;
+  background-color: #f3f2f2;
+  border: 0;
 }
 
 .check-box label {
@@ -39,9 +62,9 @@ h1 {
 
 #container {
   width: 600px;
-  height: 860px;
+  height: 900px;
   margin: 0 auto;
-  background-color: #5B8E7D;
+  background-color: #5A5766;
   border-radius: 10px;
 }
 
@@ -51,8 +74,23 @@ h1 {
   width: 513px;
   height: 25px;
   border-radius: 7px;
+  margin-bottom: 10px;
+  border: none;
+  padding-top: 5px;
+  padding-left: 5px;
+  background-color: #f3f2f2;
+
+}
+
+#name:focus,
+#email:focus,
+#number:focus,
+#textarea:focus {
+  border: 0;
+  outline: 0;
 }
 
 #dropdown {
   margin-top: 20px;
+  background-color: #f3f2f2;
 }
